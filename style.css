@@ -1,0 +1,106 @@
+.box-one-content {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  width: 400px;
+  background-color: red;
+  /* display: flex;
+    align-content:flex-start; */
+}
+.bloc{
+    text-align: center;
+    width:700px;
+    margin-left:100px
+}
+.paraghraph-about{
+    width:500px;
+    margin-left:50px
+}
+.box-content-two {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  width: 300px;
+  background-color: green;
+}
+.box-container {
+  border-style: double;
+  border-width: 5px;
+  border-color: blue;
+  display: flex;
+  
+  /*   flex-direction: row;  */
+  /*  flex-direction:row-reverse ; */
+  /* flex-direction: column-reverse; */
+  /*  justify-content: center; */
+  /* justify-content: flex-end; */
+  /* justify-content: flex-start; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /*  align-items: flex-start; */
+  align-items: flex-end;
+}
+
+h1 {
+  border-width: 1px;
+  border-style: groove;
+  background-color: brown;
+}
+h3 {
+  border-style: groove;
+  border-width: 1px;
+  background-color: deeppink;
+}
+.grid-box-content-one {
+  border-style: groove;
+  border-width: 1px;
+  background-color: darkmagenta;
+}
+.grid-box-content-two{
+    border-style: groove;
+    border-width: 1px;
+    background-color: darkred;
+
+}
+.box-grid {
+  border-width: 2px;
+  border-style: groove;
+  border-color: black;
+  margin-top: 30px;
+  display:grid;
+  /* grid-template-columns: 500px 500px; */
+  /* grid-template-rows:500px 100px 100px 100px ; */
+ 
+  /* 1/4 1/4 1/4 1/4
+      2/5 1/5 1/5 1/5       */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+     /*  grid-template-rows: 100px 100px;  */
+     grid-column-gap:10px
+
+
+}
+/* @media screen and (max-width: 323px)
+{
+    body{
+        background-color: red;
+    }
+}
+@media screen and (min-width: 700px){
+    body{
+        background-color: green;
+    }
+} */
+@media screen and (max-width:700px){
+    body{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bloc{
+        background-color: deeppink;
+    }
+
+}
+
